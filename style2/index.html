@@ -5,13 +5,114 @@
 <!---------------------------STYLE2--------------------------->
 
 
-
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+    <style>
+
+        body {
+    
+    
+            font : 16px Verdana;
+            margin : 20px;
+            line-height : 26px;
+
+        }
+
+       #top h1 {
+
+        color : #4CAF50;
+        margin : 0;
+
+       }
+
+       #Mid h1, #Mid h2{
+
+        color : #4CAF50;
+
+       }
+
+       #Mid a {
+
+        color : black;
+
+       }
+
+       #Mid a:hover {
+
+        color : greenyellow;
+       }
+
+       #menuList a {
+
+        color :white;
+        text-decoration: none;
+
+       }
+
+
+       #menuList {
+
+        padding : 0;
+        margin : 0;
+        color : greenyellow;
+
+       }
+
+
+       .menuItem {
+        
+        display : inline-block;
+        color : white;
+        border : 1px solid gray;
+        padding : 5px 10px;
+        background-color: #555555;
+        cursor : pointer;
+        text-align : center;
+        width : 10%;
+
+       }
+       
+       .menuItem:hover { /* 마우스 호버 색 변경 */
+
+        background-color: black;
+        color : white;
+       }
+
+       #bottom {
+
+        border-radius: 4px;
+        text-align: center;
+        padding : 10px;
+        font-size: 70%;
+        line-height: 14px;
+
+       }
+
+       #Right {
+
+        border : 1px solid grey;
+        background-color: #f1f1f1f1;
+        padding-left: 10px;
+       }
+
+
+
+       #Right h3 {
+
+        color : #4CAF50;
+       }
+
+    </style> <!--- end of style-->
+
 
 </head>
 
@@ -33,11 +134,11 @@
 
                 <ul id = "menuList" >
 
-                    <li class = "menuItem"> Stylesheet 1</li>
-                    <li class = "menuItem"> Stylesheet 2</li>
-                    <li class = "menuItem"> Stylesheet 3</li>
-                    <li class = "menuItem"> Stylesheet 4</li>
-                    <li class = "menuItem"> No Stylesheet</li>
+                    <li class="menuItem"><a href="#">Stylesheet 1</a></li>
+                    <li class="menuItem"><a href="#">Stylesheet 2</a></li>
+                    <li class="menuItem"><a href="file:///c%3A/School/2023-2/%EC%8B%A4%ED%94%841/HTML%20Project/style2/index.html#">Stylesheet 3</a></li>
+                    <li class="menuItem"><a href="file:///C:/School/2023-2/%EC%8B%A4%ED%94%841/HTML%20Project/style1/index.html#">Stylesheet 4</a></li>
+                    <li class="menuItem"><a href="file:///C:/School/2023-2/%EC%8B%A4%ED%94%841/HTML%20Project/nostyle/index.html">No Stylesheet</a></li>
                 </ul>
 
             </div> <!--- left menu ending div-->
@@ -46,17 +147,17 @@
 
                 <h1> Same Page Different Stylesheets </h1>
                 <p> This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:<br>
-                <a href="#" onclick="reStyle(0);return false">Stylesheet1</a>,
-                <a href="#" onclick="reStyle(0);return false">Stylesheet2</a>,
-                <a href="#" onclick="reStyle(0);return false">Stylesheet3</a>,
-                <a href="#" onclick="reStyle(0);return false">Stylesheet4</a>.
+                <a href="#">Stylesheet1</a>,
+                <a href="#">Stylesheet2</a>,
+                <a href="file:///c%3A/School/2023-2/%EC%8B%A4%ED%94%841/HTML%20Project/style2/index.html#">Stylesheet3</a>,
+                <a href="file:///C:/School/2023-2/%EC%8B%A4%ED%94%841/HTML%20Project/nostyle/index.html">Stylesheet4</a>.
 
                 </p>
 
                 <h2> No Styles </h2>
 
                 <p> This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet: <br> 
-                <a href="#" onclick="noStyles();return false">No Stylesheet</a>.
+                <a href="file:///C:/School/2023-2/%EC%8B%A4%ED%94%841/HTML%20Project/nostyle/index.html">No Stylesheet</a>.
 
                 </p>
 
@@ -78,7 +179,6 @@
         <div id = "bottom" > 
 
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-
 
 
         </div> <!--- bottom ending div-->
